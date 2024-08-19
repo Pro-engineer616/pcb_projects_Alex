@@ -1,1 +1,0 @@
-PDB (Power delivery board Rev. 1.0)
