@@ -1,0 +1,1 @@
+Radxa Shield Rev 1.0
