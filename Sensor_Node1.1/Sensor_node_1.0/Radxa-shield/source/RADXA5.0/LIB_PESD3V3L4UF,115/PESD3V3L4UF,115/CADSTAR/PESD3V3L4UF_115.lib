@@ -1,0 +1,18 @@
+.PESD3V3L4UF_115 :1 ;Low capacitance unidirectional quadruple ESD protection diode arrays
+PESD3V3L5UF115
+*STM D
+*NGS
+*PLB 1="cathode (diode 1)" 2="common anode_1" 3="cathode (diode 2)" 4="cathode (diode 3)" 5="common anode_2" 6="cathode (diode 4)"
+*MXP 6
+*DFN PESD3V3L4UF_115
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD3V3L4UF,115)
+~!Mouser Part Number (771-PESD3V3L4UFT/R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L4UF115?qs=LOCUfHb8d9tNJS4807IAKw%3D%3D)
+~!Arrow Part Number (PESD3V3L4UF,115)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pesd3v3l4uf115/nexperia?region=europe)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf)
+~!Height (0.5mm)
+~!3D_Model (PESD3V3L4UF,115)
+PESD3V3L4UF_115
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

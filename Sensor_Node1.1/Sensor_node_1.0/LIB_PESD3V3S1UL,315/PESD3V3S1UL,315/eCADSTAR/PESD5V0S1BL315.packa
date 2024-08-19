@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PESD3V3S1UL_315"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "PESD5V0S1BL315")
+        (spec "System")
+    )
+)

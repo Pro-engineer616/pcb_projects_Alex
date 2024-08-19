@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CP2105")(type "KiCad")(uri "${KIPRJMOD}/CP2105_F01_GM/KiCADv6/2024-07-20_06-26-32.kicad_sym")(options "")(descr ""))
+  (lib (name "TFM-104-02-L-DH-FR")(type "KiCad")(uri "${KIPRJMOD}/TFM-104-02-L-DH-FR/TFM-104-02-L-DH.kicad_sym")(options "")(descr ""))
+  (lib (name "TFM_102_02_L_DH_TR")(type "KiCad")(uri "${KIPRJMOD}/TFM_102_02_L_DH_TR/TFM-102-02-L-DH.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD3V3L4UF,115")(type "KiCad")(uri "${KIPRJMOD}/LIB_PESD3V3L4UF,115/PESD3V3L4UF,115/KiCad/PESD3V3L4UF_115.kicad_sym")(options "")(descr ""))
+  (lib (name "TFM-105-02-L-DH")(type "KiCad")(uri "${KIPRJMOD}/TFM_105_02_L_DH (1)/TFM-105-02-L-DH.kicad_sym")(options "")(descr ""))
+)

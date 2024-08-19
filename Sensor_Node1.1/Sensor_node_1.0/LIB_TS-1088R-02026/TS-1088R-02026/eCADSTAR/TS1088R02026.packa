@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TS-1088R-02026"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-06-24-09:38:50)
+    (mountForm default
+        (footprintRef "TS1088R02026")
+        (spec "System")
+    )
+)

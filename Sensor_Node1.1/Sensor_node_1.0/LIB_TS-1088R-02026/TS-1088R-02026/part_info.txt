@@ -1,0 +1,9 @@
+Manufacturer=XUNPU
+PartNumber=TS-1088R-02026
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=3.3
+Released=2019-12-18 11:22:34
+Downloaded=2024-07-30 10:29:46
+3D=N

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD3V3S1UL_315'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD3V3S1UL,315" (!) = "", "PESD5V0S1BL315", "Other", "771-PESD3V3S1UL315", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3S1UL315?qs=LOCUfHb8d9vQ9koc%252Bm8kRA%3D%3D", "PESD3V3S1UL,315", "https://www.arrow.com/en/products/pesd3v3s1ul315/nexperia?region=asia", "Unidirectional ESD protection diode", "https://assets.nexperia.com/documents/data-sheet/PESD3V3S1UL.pdf", "0 mm"
+END_PART
+
+END.

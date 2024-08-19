@@ -1,0 +1,148 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PESD3V3L4UF_115"
+   (description "Low capacitance unidirectional quadruple ESD protection diode arrays")
+   (family "DIO")
+   (package "PESD3V3L5UF115")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "PESD3V3L4UF,115")
+   (attribute "Mouser Part Number" "771-PESD3V3L4UFT/R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L4UF115?qs=LOCUfHb8d9tNJS4807IAKw%3D%3D")
+   (attribute "Arrow Part Number" "PESD3V3L4UF,115")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd3v3l4uf115/nexperia?region=europe")
+   (gate
+    (symbol "PESD3V3L4UF_115")
+    (pin "cathode_(diode_1)" 1 PS)
+    (pin "common_anode_1" 2 PS)
+    (pin "cathode_(diode_2)" 3 PS)
+    (pin "cathode_(diode_3)" 4 PS)
+    (pin "common_anode_2" 5 PS)
+    (pin "cathode_(diode_4)" 6 PS)
+   )
+  )
+  (symbol "PESD3V3L4UF_115"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2200 100) (pt 2200 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PESD3V3L5UF115"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.725 0.5)
+      (pt 0.725 0.5)
+      (pt 0.725 -0.5)
+      (pt -0.725 -0.5)
+      (pt -0.725 0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.225 1.022)
+      (pt 1.225 1.022)
+      (pt 1.225 -1.25)
+      (pt -1.225 -1.25)
+      (pt -1.225 1.022))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.5 -0.7)
+      (arc (pt -0.500 -0.700) (pt -0.525 -0.750) (pt -0.475 -0.700) (start -180.0) (sweep 90.0))
+      (pt -0.5 -0.75)
+      (arc (pt -0.500 -0.750) (pt -0.525 -0.750) (pt -0.475 -0.700) (start -180.0) (sweep -90.0))
+      (pt -0.5 -0.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.725 -0.05)
+      (pt -0.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.725 -0.05)
+      (pt 0.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.725 0)
+      (pt -0.725 0.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.725 0)
+      (pt 0.725 0.05))))
+   (leg 1 (pt -0.500 -0.337) (padstack 0))
+   (leg 2 (pt 0.000 -0.337) (padstack 0))
+   (leg 3 (pt 0.500 -0.337) (padstack 0))
+   (leg 4 (pt 0.500 0.337) (padstack 0))
+   (leg 5 (pt 0.000 0.337) (padstack 0))
+   (leg 6 (pt -0.500 0.337) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.370 0.425 0 0 0.000))
+   )
+   (model "PESD3V3L4UF,115.stp"
+    (euler -90 0 0)
+    (offset -1.059999942779541 -1.7300000190734863 1.2899999618530273)
+   )
+  )
+ )
+)

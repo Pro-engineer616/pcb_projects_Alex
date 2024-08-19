@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KMR621NGLFS
+D Tactile Switches 50mA 32VDC 1.9mmH 2N IP67
+K
+F https://www.ckswitches.com/media/1907/kmr6.pdf
+$ENDCMP
+#
+#End Doc Library

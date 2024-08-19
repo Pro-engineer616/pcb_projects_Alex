@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD3V3L4UF,115
+D Low capacitance unidirectional quadruple ESD protection diode arrays
+K
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
+#End Doc Library

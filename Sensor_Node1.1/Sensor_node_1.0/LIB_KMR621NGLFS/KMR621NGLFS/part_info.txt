@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=KMR621NGLFS
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=3.1
+Released=2019-04-30 11:34:13
+Downloaded=2024-07-08 13:33:33
+3D=Y

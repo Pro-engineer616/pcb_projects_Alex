@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD3V3S1UL,315
+D Unidirectional ESD protection diode
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD3V3S1UL.pdf
+$ENDCMP
+#
+#End Doc Library

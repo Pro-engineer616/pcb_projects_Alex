@@ -1,0 +1,95 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TS-1088R-02026"
+   (description "SMD,3x4x2.0mm Tactile Switches")
+   (family "SWI")
+   (package "TS1088R02026")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02026_C455280.pdf")
+   (attribute "Manufacturer_Name" "XUNPU")
+   (attribute "Manufacturer_Part_Number" "TS-1088R-02026")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "TS-1088R-02026")
+    (pin "COM" 1 PS)
+    (pin "NO" 2 PS)
+   )
+  )
+  (symbol "TS-1088R-02026"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TS1088R02026"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.95 1.465)
+      (pt 1.95 1.465)
+      (pt 1.95 -1.465)
+      (pt -1.95 -1.465)
+      (pt -1.95 1.465))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.75 2.465)
+      (pt 3.75 2.465)
+      (pt 3.75 -2.465)
+      (pt -3.75 -2.465)
+      (pt -3.75 2.465))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2 1.465)
+      (pt 1.95 1.465))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 -1.465)
+      (pt 2 -1.465))))
+   (leg 1 (pt -2.225 0.000) (padstack 0))
+   (leg 2 (pt 2.225 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 2.000 0 0 90.000))
+   )
+  )
+ )
+)
