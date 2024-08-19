@@ -1,0 +1,226 @@
+(footprint "XTAL_TSX-3225_40.0000MF20X-K0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.55 -2.885 0)
+		(layer "F.SilkS")
+		(uuid "5561a4f8-6e84-4d67-822d-f4bdee3942f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_TSX-3225_40.0000MF20X-K0"
+		(at 16.79 2.885 0)
+		(layer "F.Fab")
+		(uuid "450fe4f5-0f20-47d0-b504-24b202f1f109")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da27ba87-bcad-4560-be58-2ee36a60b889")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d98558db-54bd-453d-9a1a-01c281369ce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ce26cd8-f905-43e8-aa7f-128688281013")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.08)
+		(end -1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b733b3d-a5f0-4fef-b5ed-7552813cc12d")
+	)
+	(fp_line
+		(start 1.25 -0.08)
+		(end 1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e479668f-5679-4544-81ea-2bcf93836f18")
+	)
+	(fp_circle
+		(center -2.125 -1.1)
+		(end -2.025 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "072482c3-6e21-4f29-a429-27fe4ed5138a")
+	)
+	(fp_line
+		(start -1.625 -2.05)
+		(end -1.625 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2de4214-89b5-4477-891e-5e8ffbe4a903")
+	)
+	(fp_line
+		(start -1.625 -2.05)
+		(end 1.625 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "760e117f-b7e1-492e-a33c-5672cda036be")
+	)
+	(fp_line
+		(start 1.625 -2.05)
+		(end 1.625 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecd1be2f-13b4-43f5-8862-b61a953e8b9a")
+	)
+	(fp_line
+		(start 1.625 2.05)
+		(end -1.625 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc9076e0-0ff3-487f-bf1e-359851fb4d8e")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acf7f517-57e9-4ba5-bd0f-871a6a3f86a7")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end 1.25 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d3ccccc-7ef7-46af-854f-e3001aa9f241")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96695c6b-95af-4b9c-8961-e585924dbb38")
+	)
+	(fp_line
+		(start 1.25 1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8cb2452-924c-453c-8f0e-3ca4df51a103")
+	)
+	(fp_circle
+		(center -2.125 -1.1)
+		(end -2.025 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e4c65ee0-98c1-443e-8b18-c291b4d431cb")
+	)
+	(pad "1" smd rect
+		(at -0.8 -1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "76e1d313-9d0a-41f4-ab4b-23e0ea6e8f24")
+	)
+	(pad "2" smd rect
+		(at -0.8 1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f9c1dcc3-93a9-4d5c-b0ce-a588354a78fb")
+	)
+	(pad "3" smd rect
+		(at 0.8 1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "647664cb-e04d-4e60-961e-64975278f8b8")
+	)
+	(pad "4" smd rect
+		(at 0.8 -1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "30ce1e3e-6c5e-4e81-8a23-c325bf7a6aac")
+	)
+	(model "${KIPRJMOD}/TSX_3225_40_0000MF20X_K0/TSX-3225_40.0000MF20X-K0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
