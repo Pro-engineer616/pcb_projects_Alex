@@ -4454,6 +4454,25 @@
 		)
 		(uuid "f7e2db8a-590a-4325-a755-1ef31f3decc1")
 	)
+	(text_box "-VBUS\nFor self-powered systems where VDD and VIO may be unpowered when VBUS is connected\n to 5 V, a resistor divider (or functionally-equivalent circuit) on VBUS is required to meet the\n absolute maximum voltage on VBUS specification in the Electrical Characteristics section.\nR1=24k, R2=47k"
+		(exclude_from_sim no)
+		(at 12.7 266.7 0)
+		(size 123.19 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a1672fd4-f2bf-445a-9bf2-958d7469c81f")
+	)
 	(global_label "USB DP"
 		(shape input)
 		(at 179.07 251.46 180)

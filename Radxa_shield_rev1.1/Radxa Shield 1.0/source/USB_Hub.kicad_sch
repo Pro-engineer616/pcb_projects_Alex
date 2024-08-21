@@ -3772,6 +3772,25 @@
 		)
 		(uuid "ff76e979-7bc6-4b28-85a7-a4a0c4b0e51e")
 	)
+	(text_box "Input voltage(Vin). \nTie to PVIN through a 2.7Ω resistor.\nR7=2.7Ω\n- power good status\nR6=49.9kΩ(Pull up to VCC - pin 10 or an external bias voltage - with a 49.9kΩ resistor)\n\n2.USB2512BI-AEZG\n\n- RBIAS:\nUSB Transceiver Bias: a 12.0 k (+/- 1%) resistor is attached from ground to this\npin to set the transceiver's internal bias settings.\nR8=12k\n-CFG_SEL1, CFG_SEL0 (pins 25 & 24)\nEither pin can be driven low with an external 100.0K resistor to digital ground or a 10.0K  resistor to VDD33\nR11=10k, R12=100k\n-NON_REM1, NON_REM0 (pins 22 & 28)\nEither pin can be driven low with an external 100.0K  resistor to digital ground or a 10.0K  resistor to VDD33. \nR9=R13=10k\n-HS_IND (pin 25)\n1 = Hub Is Connected At High Speed (480 Mbit/s)\nR11=10k\n-SUSP_IND (pin 28)\n1 = Hub Is Configured And Is Active (Not In Suspend) \n"
+		(exclude_from_sim no)
+		(at 15.24 226.06 0)
+		(size 115.57 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3a566b70-0acd-45a7-b8d2-192825abeb62")
+	)
 	(global_label "XTALOUT"
 		(shape input)
 		(at 252.73 81.28 0)
