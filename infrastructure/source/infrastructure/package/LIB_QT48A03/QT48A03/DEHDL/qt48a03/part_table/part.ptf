@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'QT48A03'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TNK", "QT48A03" (!) = "", "SOP102P1536X780-48N", "Small Outline Packages", "", "", "", "", "1000Base-T DUAL Port Transformer Module", "https://datasheet.lcsc.com/szlcsc/1810082007_TNK-QT48A03_C216365.pdf", "7.8 mm"
+END_PART
+
+END.

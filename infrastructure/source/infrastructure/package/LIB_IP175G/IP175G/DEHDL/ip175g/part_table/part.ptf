@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IP175G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "IC+", "IP175G" (!) = "", "QFN40P600X600X90-49N-D", "Quad Flat No-Lead", "", "", "", "", "5 Port 10/100 Ethernet Integrated Switch (85nm /Extreme Low Power, PWMT and AFT )", "", "0.9 mm"
+END_PART
+
+END.

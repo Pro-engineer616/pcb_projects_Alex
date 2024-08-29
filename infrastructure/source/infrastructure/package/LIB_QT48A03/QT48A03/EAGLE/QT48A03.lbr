@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/12015515/1200748/2.50/48/3/Transformer/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;1000Base-T DUAL Port Transformer Module&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOP102P1536X780-48N">
+<description>&lt;b&gt;QT48A03&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-7.188" y="11.73" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="2" x="-7.188" y="10.71" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="3" x="-7.188" y="9.69" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="4" x="-7.188" y="8.67" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="5" x="-7.188" y="7.65" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="6" x="-7.188" y="6.63" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="7" x="-7.188" y="5.61" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="8" x="-7.188" y="4.59" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="9" x="-7.188" y="3.57" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="10" x="-7.188" y="2.55" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="11" x="-7.188" y="1.53" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="12" x="-7.188" y="0.51" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="13" x="-7.188" y="-0.51" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="14" x="-7.188" y="-1.53" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="15" x="-7.188" y="-2.55" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="16" x="-7.188" y="-3.57" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="17" x="-7.188" y="-4.59" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="18" x="-7.188" y="-5.61" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="19" x="-7.188" y="-6.63" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="20" x="-7.188" y="-7.65" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="21" x="-7.188" y="-8.67" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="22" x="-7.188" y="-9.69" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="23" x="-7.188" y="-10.71" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="24" x="-7.188" y="-11.73" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="25" x="7.188" y="-11.73" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="26" x="7.188" y="-10.71" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="27" x="7.188" y="-9.69" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="28" x="7.188" y="-8.67" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="29" x="7.188" y="-7.65" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="30" x="7.188" y="-6.63" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="31" x="7.188" y="-5.61" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="32" x="7.188" y="-4.59" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="33" x="7.188" y="-3.57" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="34" x="7.188" y="-2.55" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="35" x="7.188" y="-1.53" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="36" x="7.188" y="-0.51" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="37" x="7.188" y="0.51" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="38" x="7.188" y="1.53" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="39" x="7.188" y="2.55" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="40" x="7.188" y="3.57" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="41" x="7.188" y="4.59" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="42" x="7.188" y="5.61" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="43" x="7.188" y="6.63" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="44" x="7.188" y="7.65" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="45" x="7.188" y="8.67" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="46" x="7.188" y="9.69" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="47" x="7.188" y="10.71" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<smd name="48" x="7.188" y="11.73" dx="2.175" dy="0.65" layer="1" rot="R0"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-8.525" y1="14.35" x2="8.525" y2="14.35" width="0.05" layer="51"/>
+<wire x1="8.525" y1="14.35" x2="8.525" y2="-14.35" width="0.05" layer="51"/>
+<wire x1="8.525" y1="-14.35" x2="-8.525" y2="-14.35" width="0.05" layer="51"/>
+<wire x1="-8.525" y1="-14.35" x2="-8.525" y2="14.35" width="0.05" layer="51"/>
+<wire x1="-6.1" y1="13.85" x2="6.1" y2="13.85" width="0.1" layer="51"/>
+<wire x1="6.1" y1="13.85" x2="6.1" y2="-13.85" width="0.1" layer="51"/>
+<wire x1="6.1" y1="-13.85" x2="-6.1" y2="-13.85" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="-13.85" x2="-6.1" y2="13.85" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="12.83" x2="-5.08" y2="13.85" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="13.85" x2="5.75" y2="13.85" width="0.2" layer="21"/>
+<wire x1="5.75" y1="13.85" x2="5.75" y2="-13.85" width="0.2" layer="21"/>
+<wire x1="5.75" y1="-13.85" x2="-5.75" y2="-13.85" width="0.2" layer="21"/>
+<wire x1="-5.75" y1="-13.85" x2="-5.75" y2="13.85" width="0.2" layer="21"/>
+<wire x1="-8.275" y1="12.405" x2="-6.1" y2="12.405" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="QT48A03">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-60.96" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-60.96" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="29.21" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PRI_1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_2" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_3" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_4" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_5" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_6" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_7" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_8" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_9" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_10" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_11" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_12" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_13" x="0" y="-30.48" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_14" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_15" x="0" y="-35.56" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_16" x="0" y="-38.1" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_17" x="0" y="-40.64" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_18" x="0" y="-43.18" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_19" x="0" y="-45.72" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_20" x="0" y="-48.26" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_21" x="0" y="-50.8" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_22" x="0" y="-53.34" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_23" x="0" y="-55.88" length="middle" direction="io" rot="R0"/>
+<pin name="PRI_24" x="0" y="-58.42" length="middle" direction="io" rot="R0"/>
+<pin name="SEC_24" x="33.02" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_23" x="33.02" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_22" x="33.02" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_21" x="33.02" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_20" x="33.02" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_19" x="33.02" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_18" x="33.02" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_17" x="33.02" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_16" x="33.02" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_15" x="33.02" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_14" x="33.02" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_13" x="33.02" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_12" x="33.02" y="-30.48" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_11" x="33.02" y="-33.02" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_10" x="33.02" y="-35.56" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_9" x="33.02" y="-38.1" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_8" x="33.02" y="-40.64" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_7" x="33.02" y="-43.18" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_6" x="33.02" y="-45.72" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_5" x="33.02" y="-48.26" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_4" x="33.02" y="-50.8" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_3" x="33.02" y="-53.34" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_2" x="33.02" y="-55.88" length="middle" direction="io" rot="R180"/>
+<pin name="SEC_1" x="33.02" y="-58.42" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="QT48A03" prefix="T">
+<description>&lt;b&gt;1000Base-T DUAL Port Transformer Module&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1810082007_TNK-QT48A03_C216365.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="QT48A03" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP102P1536X780-48N">
+<connects>
+<connect gate="G$1" pin="PRI_1" pad="1"/>
+<connect gate="G$1" pin="PRI_2" pad="2"/>
+<connect gate="G$1" pin="PRI_3" pad="3"/>
+<connect gate="G$1" pin="PRI_4" pad="4"/>
+<connect gate="G$1" pin="PRI_5" pad="5"/>
+<connect gate="G$1" pin="PRI_6" pad="6"/>
+<connect gate="G$1" pin="PRI_7" pad="7"/>
+<connect gate="G$1" pin="PRI_8" pad="8"/>
+<connect gate="G$1" pin="PRI_9" pad="9"/>
+<connect gate="G$1" pin="PRI_10" pad="10"/>
+<connect gate="G$1" pin="PRI_11" pad="11"/>
+<connect gate="G$1" pin="PRI_12" pad="12"/>
+<connect gate="G$1" pin="PRI_13" pad="13"/>
+<connect gate="G$1" pin="PRI_14" pad="14"/>
+<connect gate="G$1" pin="PRI_15" pad="15"/>
+<connect gate="G$1" pin="PRI_16" pad="16"/>
+<connect gate="G$1" pin="PRI_17" pad="17"/>
+<connect gate="G$1" pin="PRI_18" pad="18"/>
+<connect gate="G$1" pin="PRI_19" pad="19"/>
+<connect gate="G$1" pin="PRI_20" pad="20"/>
+<connect gate="G$1" pin="PRI_21" pad="21"/>
+<connect gate="G$1" pin="PRI_22" pad="22"/>
+<connect gate="G$1" pin="PRI_23" pad="23"/>
+<connect gate="G$1" pin="PRI_24" pad="24"/>
+<connect gate="G$1" pin="SEC_1" pad="25"/>
+<connect gate="G$1" pin="SEC_2" pad="26"/>
+<connect gate="G$1" pin="SEC_3" pad="27"/>
+<connect gate="G$1" pin="SEC_4" pad="28"/>
+<connect gate="G$1" pin="SEC_5" pad="29"/>
+<connect gate="G$1" pin="SEC_6" pad="30"/>
+<connect gate="G$1" pin="SEC_7" pad="31"/>
+<connect gate="G$1" pin="SEC_8" pad="32"/>
+<connect gate="G$1" pin="SEC_9" pad="33"/>
+<connect gate="G$1" pin="SEC_10" pad="34"/>
+<connect gate="G$1" pin="SEC_11" pad="35"/>
+<connect gate="G$1" pin="SEC_12" pad="36"/>
+<connect gate="G$1" pin="SEC_13" pad="37"/>
+<connect gate="G$1" pin="SEC_14" pad="38"/>
+<connect gate="G$1" pin="SEC_15" pad="39"/>
+<connect gate="G$1" pin="SEC_16" pad="40"/>
+<connect gate="G$1" pin="SEC_17" pad="41"/>
+<connect gate="G$1" pin="SEC_18" pad="42"/>
+<connect gate="G$1" pin="SEC_19" pad="43"/>
+<connect gate="G$1" pin="SEC_20" pad="44"/>
+<connect gate="G$1" pin="SEC_21" pad="45"/>
+<connect gate="G$1" pin="SEC_22" pad="46"/>
+<connect gate="G$1" pin="SEC_23" pad="47"/>
+<connect gate="G$1" pin="SEC_24" pad="48"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="TNK" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="QT48A03" constant="no"/>
+<attribute name="Mouser_Part_Number" value="" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="" constant="no"/>
+<attribute name="Arrow_Part_Number" value="" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="" constant="no"/>
+<attribute name="Description" value="1000Base-T DUAL Port Transformer Module" constant="no"/>
+<attribute name="Height" value="7.8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

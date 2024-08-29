@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IP175G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-10-09:49:18)
+    (mountForm default
+        (footprintRef "QFN40P600X600X90-49N-D")
+        (spec "System")
+    )
+)

@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-085917";"";
+"REFERENCE";"2132271210";"";
+"TraceParts.PartTitle";"CLIK-Mate";"";
+"TraceParts.InstanceId";"90-09042024-0859172N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"1.50mm Pitch CLIK-Mate Wire-to-Board PCB Receptacle, Dual Row, Surface Mount, Vertical, 0.10µm Gold (Au) Plating, 12 Circuits, Natural";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

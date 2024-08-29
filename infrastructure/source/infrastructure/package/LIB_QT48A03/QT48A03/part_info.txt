@@ -1,0 +1,9 @@
+Manufacturer=TNK
+PartNumber=QT48A03
+PartCategory=Transformer
+PackageCategory=Small Outline Packages
+PinCount=48
+Version=1.1
+Released=2020-05-18 03:08:52
+Downloaded=2024-08-25 06:06:58
+3D=Y

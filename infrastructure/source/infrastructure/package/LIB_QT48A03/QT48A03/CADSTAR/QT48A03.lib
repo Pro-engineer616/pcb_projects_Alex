@@ -1,0 +1,19 @@
+.QT48A03 :1 ;1000Base-T DUAL Port Transformer Module
+SOP102P1536X780-48N
+*STM T
+*NGS
+*PLB 1="PRI_1" 2="PRI_2" 3="PRI_3" 4="PRI_4" 5="PRI_5" 6="PRI_6" 7="PRI_7" 8="PRI_8" 9="PRI_9" 10="PRI_10" 11="PRI_11" 12="PRI_12" 13="PRI_13" 14="PRI_14" 15="PRI_15" 16="PRI_16" 17="PRI_17" 18="PRI_18" 19="PRI_19" 20="PRI_20" 21="PRI_21" 22="PRI_22" 23="PRI_23" 24="PRI_24" 25="SEC_1" 26="SEC_2" 27="SEC_3" 28="SEC_4" 29="SEC_5" 30="SEC_6" 31="SEC_7" 32="SEC_8" 33="SEC_9" 34="SEC_10" 35="SEC_11" 36="SEC_12" 37="SEC_13" 38="SEC_14" 39="SEC_15" 40="SEC_16" &
+41="SEC_17" 42="SEC_18" 43="SEC_19" 44="SEC_20" 45="SEC_21" 46="SEC_22" 47="SEC_23" 48="SEC_24"
+*MXP 48
+*DFN QT48A03
+~!Manufacturer_Name (TNK)
+~!Manufacturer_Part_Number (QT48A03)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/1810082007_TNK-QT48A03_C216365.pdf)
+~!Height (7.8mm)
+~!3D_Model (QT48A03)
+QT48A03
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

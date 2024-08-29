@@ -1,0 +1,9 @@
+Manufacturer=IC+
+PartNumber=IP175G
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=49
+Version=2.1
+Released=2019-07-10 09:49:18
+Downloaded=2024-08-25 05:23:16
+3D=Y

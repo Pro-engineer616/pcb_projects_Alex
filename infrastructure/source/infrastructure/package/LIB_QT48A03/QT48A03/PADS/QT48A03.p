@@ -1,0 +1,67 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+QT48A03 SOP102P1536X780-48N I XFR 9 1 0 0 0
+TIMESTAMP 2024.08.25.06.06.58
+"Manufacturer_Name" TNK
+"Manufacturer_Part_Number" QT48A03
+"Mouser Part Number" 
+"Mouser Price/Stock" 
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" 1000Base-T DUAL Port Transformer Module
+"Datasheet Link" https://datasheet.lcsc.com/szlcsc/1810082007_TNK-QT48A03_C216365.pdf
+"Geometry.Height" 7.8mm
+GATE 1 48 0
+QT48A03
+1 0 U PRI_1
+2 0 U PRI_2
+3 0 U PRI_3
+4 0 U PRI_4
+5 0 U PRI_5
+6 0 U PRI_6
+7 0 U PRI_7
+8 0 U PRI_8
+9 0 U PRI_9
+10 0 U PRI_10
+11 0 U PRI_11
+12 0 U PRI_12
+13 0 U PRI_13
+14 0 U PRI_14
+15 0 U PRI_15
+16 0 U PRI_16
+17 0 U PRI_17
+18 0 U PRI_18
+19 0 U PRI_19
+20 0 U PRI_20
+21 0 U PRI_21
+22 0 U PRI_22
+23 0 U PRI_23
+24 0 U PRI_24
+48 0 U SEC_24
+47 0 U SEC_23
+46 0 U SEC_22
+45 0 U SEC_21
+44 0 U SEC_20
+43 0 U SEC_19
+42 0 U SEC_18
+41 0 U SEC_17
+40 0 U SEC_16
+39 0 U SEC_15
+38 0 U SEC_14
+37 0 U SEC_13
+36 0 U SEC_12
+35 0 U SEC_11
+34 0 U SEC_10
+33 0 U SEC_9
+32 0 U SEC_8
+31 0 U SEC_7
+30 0 U SEC_6
+29 0 U SEC_5
+28 0 U SEC_4
+27 0 U SEC_3
+26 0 U SEC_2
+25 0 U SEC_1
+
+*END*
+*REMARK* SamacSys ECAD Model
+12015515/1200748/2.50/48/3/Transformer

@@ -1,0 +1,116 @@
+(footprint "WA-SMSI_9774120360"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WA-SMSI SMT Steel Spacer, M3 Thread Internal<BR></B>Thread Internal M3<BR>Height = 12mm")
+	(property "Reference" "REF**"
+		(at 0.0533 -5.0677 0)
+		(layer "F.SilkS")
+		(uuid "496fc103-d681-4097-90d6-18d6ba5a1dfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WA-SMSI_9774120360"
+		(at 7.8074 4.7291 0)
+		(layer "F.Fab")
+		(uuid "f438a189-606c-4019-9ae0-c2bf2eab7cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e8e16df-dcef-40dd-831d-94a06ff4c7fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22632228-7537-4fbc-a1d4-ab63e29e0e53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b48f7d9e-dbd3-4fc0-934e-0202ed9edf7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.125 0)
+		(stroke
+			(width 0.75)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Paste")
+		(uuid "ee704cc7-2e2a-4d15-90f8-09436b8a91ff")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.125 0)
+		(stroke
+			(width 0.75)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "e5e92502-7446-4176-bab6-6eab67a2b080")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "772d7cce-79cb-4d36-9a09-39d14fca6a7b")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b3e7cf6b-b719-4f27-be24-9baea1500da5")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "aeb9db43-fb1c-447d-829f-a4f2bed444db")
+	)
+)
