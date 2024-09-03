@@ -1,0 +1,95 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "734b2ac7-12e7-4e60-a494-81989fcac3dc")
+	(paper "A3")
+	(title_block
+		(title "Radxa Shield Rev. 1.1")
+		(date "2024-08-16")
+		(rev "V1.1")
+		(company "Radxa Shield Rev. 1.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 191.77 111.76)
+		(size 44.45 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34c23f56-3ffb-4f38-9180-3945a129f697")
+		(property "Sheetname" "UART_HUB"
+			(at 191.77 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART_HUB.kicad_sch"
+			(at 191.77 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.2"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 111.76)
+		(size 45.72 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cff7a4a-74d4-4510-bc5c-148570ae8538")
+		(property "Sheetname" "USB_Hub"
+			(at 139.7 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Hub.kicad_sch"
+			(at 139.7 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.2"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

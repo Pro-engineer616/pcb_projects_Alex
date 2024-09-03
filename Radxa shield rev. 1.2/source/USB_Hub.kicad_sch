@@ -1,0 +1,10552 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "23356989-312b-4b38-97a0-a7920d7e9231")
+	(paper "A3")
+	(title_block
+		(title "USB_HUB")
+		(date "2024-08-16")
+		(rev "V1.1")
+		(company "USB_HUB")
+	)
+	(lib_symbols
+		(symbol "+3.3V_4"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_4_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_4_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BLM15BB221SN1D:BLM15BB221SN1D"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 6.985 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BLM15BB221SN1D"
+				(at 6.985 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "IND_BLM15_0402_MUR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "BLM15BB221SN1D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BLM15BB221SN1D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IND_BLM15_0402_MUR IND_BLM15_0402_MUR-M IND_BLM15_0402_MUR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BLM15BB221SN1D_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 3.81 2.5344)
+					(end 2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 6.35 2.5344)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 8.89 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 1.27)
+					(mid 11.43 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BLM15BB221SN1D_1_2"
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 3.81)
+					(end -1.27 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 6.35)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 8.89)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 12.7)
+					(mid -2.5344 11.43)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:ESD9B5.0ST5G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B5.0ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FS1703-3300-AS:FS1703-3300-AS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "FS1703-3300-AS"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "P11F1_TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "FS1703-3300-AS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FS1703-3300-AS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "P11F1_TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FS1703-3300-AS_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -25.4) (xy 33.02 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -25.4) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -17.78 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "VSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VOS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -20.32 180)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "L327S240P11L:TSX-3225_40.0000MF20X-K0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 6.3559 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TSX-3225_40.0000MF20X-K0"
+				(at -5.0944 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TSX-3225_40.0000MF20X-K0:XTAL_TSX-3225_40.0000MF20X-K0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "EPSON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TSX-3225_40.0000MF20X-K0_0_0"
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB2512BI_AEZG:USB2512BI-AEZG"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 71.12 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "USB2512BI-AEZG"
+				(at 71.12 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "QFN36_6X6MC_MCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "USB2512BI-AEZG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB2512BI-AEZG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN36_6X6MC_MCH QFN36_6X6MC_MCH-M QFN36_6X6MC_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB2512BI-AEZG_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -50.8) (xy 134.62 -50.8)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -50.8)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 134.62 -50.8) (xy 134.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 134.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "USBDM_DN1/PRT_DIS_M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "VDDA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "PRTPWR1/BC_EN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "OCS_N1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "CRFILT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "PRTPWR2/BC_EN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "OCS_N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 142.24 -45.72 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "USBDP_DN1/PRT_DIS_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 142.24 -43.18 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 142.24 -40.64 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -38.1 180)
+					(length 7.62)
+					(name "SDA/SMBDATA/NON_REM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 142.24 -35.56 180)
+					(length 7.62)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -33.02 180)
+					(length 7.62)
+					(name "SCL/SMBCLK/CFG_SEL0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -30.48 180)
+					(length 7.62)
+					(name "HS_IND/CFG_SEL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -27.94 180)
+					(length 7.62)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -25.4 180)
+					(length 7.62)
+					(name "VBUS_DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -22.86 180)
+					(length 7.62)
+					(name "SUSP_IND/LOCAL_PWR/NON_REM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 142.24 -20.32 180)
+					(length 7.62)
+					(name "VDDA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "USBDM_DN2/PRT_DIS_M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -17.78 180)
+					(length 7.62)
+					(name "USBDM_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -15.24 180)
+					(length 7.62)
+					(name "USBDP_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 142.24 -12.7 180)
+					(length 7.62)
+					(name "XTALOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 142.24 -10.16 180)
+					(length 7.62)
+					(name "XTALIN/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -7.62 180)
+					(length 7.62)
+					(name "PLLFILT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 142.24 -5.08 180)
+					(length 7.62)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 142.24 -2.54 180)
+					(length 7.62)
+					(name "VDDA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 142.24 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "USBDP_DN2/PRT_DIS_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VDDA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 313.69 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7f9f80-3027-4afa-bb31-170713c85afe")
+	)
+	(junction
+		(at 293.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1313bd49-3e6c-4f0f-a38a-f8084af095ca")
+	)
+	(junction
+		(at 285.75 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f5f979-6ce0-4761-a16f-d0a5c3a82de0")
+	)
+	(junction
+		(at 331.47 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f8bc59-848e-43f4-b689-40c7ca9095f7")
+	)
+	(junction
+		(at 184.15 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a036fbb-62d7-409d-8e19-da6a49147b5d")
+	)
+	(junction
+		(at 90.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3ecd57-ee6e-4064-88ff-8399cc444aec")
+	)
+	(junction
+		(at 129.54 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459959f5-6e8f-4dcb-8e87-c27a4c81ca27")
+	)
+	(junction
+		(at 322.58 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5724a915-90dc-4746-8416-64368ee59ee3")
+	)
+	(junction
+		(at 119.38 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d763ded-436e-4732-91be-7c3b8bd1a4aa")
+	)
+	(junction
+		(at 133.35 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670f7363-ceb6-417c-9f48-f3c0c190bee8")
+	)
+	(junction
+		(at 356.87 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b29e441-86de-43ce-b9f1-70519d8c9bad")
+	)
+	(junction
+		(at 331.47 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c54a5e7-231e-4cb3-9a48-64132a84bf81")
+	)
+	(junction
+		(at 189.23 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "784bc8e5-9602-46f1-b130-5ba2fe099adf")
+	)
+	(junction
+		(at 184.15 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b18258a-c433-4aec-bf3d-26e246d74bd8")
+	)
+	(junction
+		(at 184.15 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7431295-2da0-4c4f-af60-d885426878ed")
+	)
+	(junction
+		(at 224.79 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b41a7dc9-1b06-485c-830a-e730c3e50737")
+	)
+	(junction
+		(at 184.15 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b758989d-3ddb-4248-bc12-2776a447c054")
+	)
+	(junction
+		(at 334.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c264a8d3-7c36-4710-96b6-beaaa06e432c")
+	)
+	(junction
+		(at 129.54 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c758bf27-0c8c-4c18-ac64-e7a1d450731c")
+	)
+	(junction
+		(at 278.13 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e2a583-197d-4caf-8c1d-2d4095962314")
+	)
+	(junction
+		(at 340.36 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4cd2c93-cc63-4f0d-8c81-14399d153f40")
+	)
+	(junction
+		(at 224.79 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ca7afd-d4e8-4a8d-a41a-39903def9275")
+	)
+	(junction
+		(at 294.64 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef001594-f3e7-4193-ad68-ea4dff01a2ab")
+	)
+	(junction
+		(at 276.86 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f84cd202-357d-4638-b2d2-3e3275d4ed53")
+	)
+	(junction
+		(at 349.25 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa342275-b4b9-4ce1-be6b-cbe727fb336c")
+	)
+	(junction
+		(at 269.24 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdb63e10-f3c9-45f7-aa2c-7033b21d3cf1")
+	)
+	(no_connect
+		(at 181.61 185.42)
+		(uuid "28910175-eea5-46d5-b4b4-085a04d201e4")
+	)
+	(no_connect
+		(at 110.49 96.52)
+		(uuid "34ac9c95-447f-4de4-9aaf-e8553635860f")
+	)
+	(no_connect
+		(at 110.49 88.9)
+		(uuid "43d2656d-a9a8-42b8-a85f-7744ef4b5cc0")
+	)
+	(no_connect
+		(at 110.49 86.36)
+		(uuid "a709e293-b990-42f4-9f04-8d23934cfb93")
+	)
+	(no_connect
+		(at 110.49 81.28)
+		(uuid "b4211dc0-2ae5-4111-813f-bf498efeb8df")
+	)
+	(no_connect
+		(at 110.49 106.68)
+		(uuid "ce0890e7-d9c3-4cb4-8068-f4ea1a1bac41")
+	)
+	(no_connect
+		(at 110.49 83.82)
+		(uuid "f6aefaf6-cc1a-409c-ae2d-b0817d04dc8b")
+	)
+	(wire
+		(pts
+			(xy 184.15 187.96) (xy 184.15 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025234b1-3fee-4d7f-8eed-19cfc3889038")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029603fb-2bda-4f6e-91ce-3e6a3385e1e5")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 110.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bcedfc-420f-4312-bd6a-e82336169c56")
+	)
+	(wire
+		(pts
+			(xy 334.01 96.52) (xy 334.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04afeda4-062e-4a3f-b655-1bff21a0b360")
+	)
+	(wire
+		(pts
+			(xy 189.23 205.74) (xy 189.23 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084f5863-42de-46f0-b485-85dc520bd3f0")
+	)
+	(wire
+		(pts
+			(xy 284.48 77.47) (xy 284.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bbbec6-f1c8-4d7c-a325-3a34e19623d1")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091ef338-c8cc-4bba-a4b0-c96796c3a8e0")
+	)
+	(wire
+		(pts
+			(xy 334.01 77.47) (xy 331.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133b68ea-f3b5-464a-a609-3ccfd9073f4a")
+	)
+	(wire
+		(pts
+			(xy 327.66 96.52) (xy 334.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1693a62b-a344-4ae4-8e52-ffa4495848d3")
+	)
+	(wire
+		(pts
+			(xy 331.47 187.96) (xy 331.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19837e38-14a3-4e3f-be27-878ba9f5ae8b")
+	)
+	(wire
+		(pts
+			(xy 129.54 199.39) (xy 129.54 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d24d956-46c6-41b3-9dba-c5beca4e05c2")
+	)
+	(wire
+		(pts
+			(xy 184.15 190.5) (xy 184.15 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2803432a-62d1-45a6-afb9-f1624168d3a8")
+	)
+	(wire
+		(pts
+			(xy 181.61 193.04) (xy 184.15 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32576dcc-a066-4849-90f6-fd3ccd99cbbf")
+	)
+	(wire
+		(pts
+			(xy 293.37 95.25) (xy 293.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3566ad5f-5d54-4fa4-8edd-6e30956329c3")
+	)
+	(wire
+		(pts
+			(xy 119.38 185.42) (xy 119.38 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357b843d-e1ab-46a5-b331-8c7170685129")
+	)
+	(wire
+		(pts
+			(xy 252.73 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc333f5-be90-4fbc-8a92-db1d0009f5b5")
+	)
+	(wire
+		(pts
+			(xy 119.38 198.12) (xy 119.38 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7f75ab-e40b-4d43-956d-ab65aeb0fb40")
+	)
+	(wire
+		(pts
+			(xy 133.35 171.45) (xy 133.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42741923-c0c6-4f09-96d6-713ca8fcd1bd")
+	)
+	(wire
+		(pts
+			(xy 129.54 195.58) (xy 140.97 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438309d5-2e47-4991-b8ad-c5b8ce040033")
+	)
+	(wire
+		(pts
+			(xy 364.49 187.96) (xy 364.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485d2e80-6950-4d94-8140-9cd98136a2f1")
+	)
+	(wire
+		(pts
+			(xy 181.61 182.88) (xy 186.69 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a00491f-7e16-4630-abda-b6688a46e102")
+	)
+	(wire
+		(pts
+			(xy 252.73 91.44) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad50e04-59c9-4536-85e1-110a55fb3502")
+	)
+	(wire
+		(pts
+			(xy 189.23 196.85) (xy 189.23 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c091885-4ede-427f-8a8f-cdecef45099f")
+	)
+	(wire
+		(pts
+			(xy 252.73 106.68) (xy 255.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb68592-6f05-4334-958a-7b8e0987c8f8")
+	)
+	(wire
+		(pts
+			(xy 184.15 198.12) (xy 181.61 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2d3d41-9d6a-445d-a095-7cc16d1de0d3")
+	)
+	(wire
+		(pts
+			(xy 322.58 187.96) (xy 322.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5309e200-6fc8-4d62-9017-d4a18a12c2c8")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5787c604-4358-4a30-83a4-d3cf0a045fbe")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fb30dc-44a2-406f-83cc-d190b6b5fc3c")
+	)
+	(wire
+		(pts
+			(xy 184.15 200.66) (xy 184.15 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593e92fa-f6ff-4890-90f8-acc5b52ffe49")
+	)
+	(wire
+		(pts
+			(xy 278.13 77.47) (xy 278.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596d74d8-78db-43dd-b298-1573936438aa")
+	)
+	(wire
+		(pts
+			(xy 215.9 187.96) (xy 224.79 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6b2099-3e7d-4c66-bc9a-615ed6ea5eda")
+	)
+	(wire
+		(pts
+			(xy 265.43 68.58) (xy 252.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0113e4-7a91-4223-9c62-2446f19adf06")
+	)
+	(wire
+		(pts
+			(xy 285.75 185.42) (xy 294.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6032c1a1-293f-4c59-a827-848d6a9028b2")
+	)
+	(wire
+		(pts
+			(xy 215.9 190.5) (xy 215.9 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e7e115-6768-422d-9d38-954d39f64895")
+	)
+	(wire
+		(pts
+			(xy 181.61 187.96) (xy 184.15 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648b23aa-5359-4ce7-a054-152f51dfaf8d")
+	)
+	(wire
+		(pts
+			(xy 231.14 187.96) (xy 231.14 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d08239-8c3d-4df9-8163-64cc26a6d5a5")
+	)
+	(wire
+		(pts
+			(xy 318.77 185.42) (xy 322.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0e02e9-d66f-4fcc-b62b-79d7624af196")
+	)
+	(wire
+		(pts
+			(xy 224.79 187.96) (xy 224.79 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8dec82-3d04-4bf8-ba94-451ba7b7b7a7")
+	)
+	(wire
+		(pts
+			(xy 224.79 198.12) (xy 224.79 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc5ecc7-f666-4671-9493-12615bca4650")
+	)
+	(wire
+		(pts
+			(xy 184.15 180.34) (xy 186.69 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703f3ef1-23ff-4987-90ac-2b5d3af574f9")
+	)
+	(wire
+		(pts
+			(xy 231.14 200.66) (xy 231.14 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755299db-15f8-4697-abde-dcec75a24a3c")
+	)
+	(wire
+		(pts
+			(xy 119.38 171.45) (xy 119.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e0abbc-f691-4fb3-b6c1-c689139c83fb")
+	)
+	(wire
+		(pts
+			(xy 276.86 185.42) (xy 276.86 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cf6e82-eab7-4164-a0b6-3eb48e0d8a34")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae1a577-2f52-4d37-9ce9-cd461a8373e8")
+	)
+	(wire
+		(pts
+			(xy 349.25 185.42) (xy 356.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e411f5f-5cf4-40b4-b263-dcdae42958b3")
+	)
+	(wire
+		(pts
+			(xy 285.75 187.96) (xy 285.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836315f9-b8ba-4a67-a8c2-f494ed2cbf65")
+	)
+	(wire
+		(pts
+			(xy 340.36 187.96) (xy 340.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bcb5d2-e894-4025-a422-8d8a20a77cf8")
+	)
+	(wire
+		(pts
+			(xy 215.9 200.66) (xy 224.79 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877042f2-6367-4d97-b7f3-04f8fa25e3c9")
+	)
+	(wire
+		(pts
+			(xy 252.73 101.6) (xy 255.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c8c0c2-4c3b-422a-8b50-d4e82689e186")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886510da-0543-400b-9357-4eef6a2ce7a0")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea08e0a-7064-4d38-a492-e318c4f71974")
+	)
+	(wire
+		(pts
+			(xy 102.87 104.14) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4e1818-73a9-4f84-b16c-1aac29ce4456")
+	)
+	(wire
+		(pts
+			(xy 294.64 187.96) (xy 294.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900f4bc8-5eca-4c9e-9929-e9cadf877f82")
+	)
+	(wire
+		(pts
+			(xy 294.64 185.42) (xy 303.53 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90464b0a-650b-41e4-b66c-f85a6df57a70")
+	)
+	(wire
+		(pts
+			(xy 189.23 198.12) (xy 184.15 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909b174d-7182-4332-bb76-5995dc58d494")
+	)
+	(wire
+		(pts
+			(xy 129.54 208.28) (xy 129.54 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9229c8d8-047a-4f03-875a-019ee035e2ec")
+	)
+	(wire
+		(pts
+			(xy 181.61 200.66) (xy 184.15 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9857088e-6ab2-4024-beb3-cc363c979190")
+	)
+	(wire
+		(pts
+			(xy 322.58 185.42) (xy 331.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e0e621-751f-43f9-b3fb-20bdf0eeb841")
+	)
+	(wire
+		(pts
+			(xy 356.87 185.42) (xy 356.87 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af627f0-a9df-4f13-89c0-090eac93e671")
+	)
+	(wire
+		(pts
+			(xy 140.97 198.12) (xy 138.43 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f83e2e3-d3f0-475f-8b5f-8a0e211a7229")
+	)
+	(wire
+		(pts
+			(xy 181.61 195.58) (xy 184.15 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22589cf-f04c-4182-afbc-5b067590bba2")
+	)
+	(wire
+		(pts
+			(xy 313.69 96.52) (xy 320.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a41be9-8f6d-4879-b5ad-950d7d3d038c")
+	)
+	(wire
+		(pts
+			(xy 293.37 86.36) (xy 293.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66d7dc6-a7f6-47cf-9cd3-a390c5c88765")
+	)
+	(wire
+		(pts
+			(xy 313.69 96.52) (xy 313.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93f67bc-f91a-43e0-b63a-811a64da6788")
+	)
+	(wire
+		(pts
+			(xy 278.13 76.2) (xy 252.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f7e3db-aa10-4e1e-b31c-f44fc7f8a9c6")
+	)
+	(wire
+		(pts
+			(xy 278.13 76.2) (xy 284.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac46ee1c-1093-43f4-9c5b-227555222851")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae48b9fc-9a6c-455c-996a-6858fad1e2f8")
+	)
+	(wire
+		(pts
+			(xy 138.43 198.12) (xy 138.43 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed68a04-a766-4cde-bdee-8c6ff153a3b9")
+	)
+	(wire
+		(pts
+			(xy 252.73 96.52) (xy 293.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2418196-46fd-49a9-9cbe-4b5f12c8f6a0")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 262.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50247c3-2aa0-4d1e-a08d-396a4c60b777")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b974df3c-545a-40e1-83e3-3c1352bda823")
+	)
+	(wire
+		(pts
+			(xy 252.73 73.66) (xy 255.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7ea4a1-bb44-452f-8e49-743b01f854f2")
+	)
+	(wire
+		(pts
+			(xy 133.35 182.88) (xy 140.97 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac222c8-b030-450b-8653-e4fe7d8590b5")
+	)
+	(wire
+		(pts
+			(xy 269.24 185.42) (xy 276.86 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb95f209-ab46-46da-8d19-6b498fa9ab02")
+	)
+	(wire
+		(pts
+			(xy 224.79 187.96) (xy 231.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be66fa7d-0bc7-420e-b321-681289ef70fc")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed334cd-bb10-4f18-8849-76e1c5bcd8b5")
+	)
+	(wire
+		(pts
+			(xy 340.36 185.42) (xy 349.25 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed65c37-10e8-4c8c-a8b3-9c2681de6e41")
+	)
+	(wire
+		(pts
+			(xy 184.15 193.04) (xy 184.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf830a9e-6c7f-47ee-9a1c-b50ccc1ec0d4")
+	)
+	(wire
+		(pts
+			(xy 189.23 189.23) (xy 189.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbc6ede-c40e-4abf-bd33-7e435846dfda")
+	)
+	(wire
+		(pts
+			(xy 331.47 82.55) (xy 331.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2770123-0da3-4c58-ab60-b568f17894ed")
+	)
+	(wire
+		(pts
+			(xy 224.79 200.66) (xy 231.14 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37578d5-5c61-4386-bdf6-2bd92fb49038")
+	)
+	(wire
+		(pts
+			(xy 215.9 198.12) (xy 215.9 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a1cdb7-f7ff-45c0-ba13-731f8aea5f68")
+	)
+	(wire
+		(pts
+			(xy 252.73 99.06) (xy 255.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3aead03-d73b-4c51-8a5b-9e581f06b2ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 190.5) (xy 129.54 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e9d10f-5168-4941-b7d5-1514a586a624")
+	)
+	(wire
+		(pts
+			(xy 313.69 77.47) (xy 313.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9574c49-e450-473b-864c-254cc6e42a91")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadba32c-698e-4377-b599-6ce47d468c54")
+	)
+	(wire
+		(pts
+			(xy 181.61 180.34) (xy 184.15 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae20441-4984-4057-83a8-b79672d36a5c")
+	)
+	(wire
+		(pts
+			(xy 276.86 185.42) (xy 285.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caffa964-8a15-4ab7-b818-541f14cbf0a5")
+	)
+	(wire
+		(pts
+			(xy 133.35 180.34) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb9a16d-f75e-4f84-8dc2-546df62c9a59")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 262.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82823a2-4b03-4cc9-bd3f-2aa3196064ea")
+	)
+	(wire
+		(pts
+			(xy 189.23 187.96) (xy 184.15 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb1f25e-12ab-4faa-9979-865eec25d13d")
+	)
+	(wire
+		(pts
+			(xy 119.38 185.42) (xy 140.97 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6973bc9-40c5-405b-a395-eaa163bf04c3")
+	)
+	(wire
+		(pts
+			(xy 349.25 185.42) (xy 349.25 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8951f2b-8d28-4cee-b471-89d19f2bbfb8")
+	)
+	(wire
+		(pts
+			(xy 130.81 182.88) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd1ea1a-85c6-46a9-b1ac-7828247134c1")
+	)
+	(wire
+		(pts
+			(xy 181.61 190.5) (xy 184.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1a37b8-c1da-443a-bfd6-e152e4b83dfc")
+	)
+	(wire
+		(pts
+			(xy 269.24 185.42) (xy 269.24 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee37a18a-7523-4cb1-8922-65a16dcaff12")
+	)
+	(wire
+		(pts
+			(xy 356.87 185.42) (xy 364.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbf5819-3c41-4f99-bfb5-aef9ea35b794")
+	)
+	(wire
+		(pts
+			(xy 293.37 96.52) (xy 293.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f066902f-89e2-4e8d-beca-5a600b18d2e1")
+	)
+	(wire
+		(pts
+			(xy 331.47 185.42) (xy 340.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e4d3ef-b832-4c78-b35e-3996f51da271")
+	)
+	(wire
+		(pts
+			(xy 119.38 180.34) (xy 119.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57abbae-ef2f-4aa8-8df3-16383ba12449")
+	)
+	(wire
+		(pts
+			(xy 334.01 77.47) (xy 334.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b16c2d-2d21-4621-9d8d-d77e93c85c8c")
+	)
+	(wire
+		(pts
+			(xy 262.89 73.66) (xy 265.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f995c373-ec9a-48fd-a180-d435e2c1f0f8")
+	)
+	(wire
+		(pts
+			(xy 262.89 93.98) (xy 264.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08f9f6-0545-4cd5-83a6-8d7d52bdc71e")
+	)
+	(wire
+		(pts
+			(xy 252.73 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0ad3a2-0418-4fb2-91fd-8fcfe3f26ce9")
+	)
+	(wire
+		(pts
+			(xy 140.97 190.5) (xy 129.54 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd3abb5-9309-4526-a5e4-cac9ba4e58f0")
+	)
+	(wire
+		(pts
+			(xy 313.69 77.47) (xy 316.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff33cb62-2458-4cd3-9d83-a54825b270b1")
+	)
+	(wire
+		(pts
+			(xy 184.15 195.58) (xy 184.15 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff76e979-7bc6-4b28-85a7-a4a0c4b0e51e")
+	)
+	(text_box "Input voltage(Vin). \nTie to PVIN through a 2.7Ω resistor.\nR7=2.7Ω\n- power good status\nR6=49.9kΩ(Pull up to VCC - pin 10 or an external bias voltage - with a 49.9kΩ resistor)\n\n2.USB2512BI-AEZG\n\n- RBIAS:\nUSB Transceiver Bias: a 12.0 k (+/- 1%) resistor is attached from ground to this\npin to set the transceiver's internal bias settings.\nR8=12k\n-CFG_SEL1, CFG_SEL0 (pins 25 & 24)\nEither pin can be driven low with an external 100.0K resistor to digital ground or a 10.0K  resistor to VDD33\nR11=10k, R12=100k\n-NON_REM1, NON_REM0 (pins 22 & 28)\nEither pin can be driven low with an external 100.0K  resistor to digital ground or a 10.0K  resistor to VDD33. \nR9=R13=10k\n-HS_IND (pin 25)\n1 = Hub Is Connected At High Speed (480 Mbit/s)\nR11=10k\n-SUSP_IND (pin 28)\n1 = Hub Is Configured And Is Active (Not In Suspend) \n"
+		(exclude_from_sim no)
+		(at 15.24 226.06 0)
+		(size 115.57 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3a566b70-0acd-45a7-b8d2-192825abeb62")
+	)
+	(global_label "XTALOUT"
+		(shape input)
+		(at 252.73 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01a957f3-4a77-4b6b-ba91-0354e488f79d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.6376 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG"
+		(shape input)
+		(at 130.81 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05626e52-0c78-4620-b8cc-b71551cacb2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.2848 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 104.14 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06b1c550-32e5-4c54-a9a7-a8f03cd68745")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.3124 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB DN"
+		(shape input)
+		(at 252.73 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "258ff14f-dc75-457e-aab5-dd9fe5769ec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.0933 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XTALIN"
+		(shape input)
+		(at 334.01 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87e7594a-97b6-458e-a211-0788531f2610")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.2243 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1_P"
+		(shape input)
+		(at 104.14 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0093e21-05d9-4382-9fe1-440fb8ea4097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6277 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB DP"
+		(shape input)
+		(at 252.73 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6d5aa7e-77b6-4717-b67a-7cd7e1527db9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.0328 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1_N"
+		(shape input)
+		(at 104.14 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b288ac7c-6d06-4765-8b5b-bc79ebac76ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.4463 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XTALIN"
+		(shape input)
+		(at 252.73 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b953ccc3-94f0-4db9-85d2-6808b8389741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.9443 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 104.14 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2dca2da-a434-451c-aaef-ff71be7a059f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.3124 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XTALOUT"
+		(shape input)
+		(at 313.69 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c762962f-83f1-4e99-8104-4682b8275c5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.7824 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 323.85 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "015d4785-9905-475e-ab55-1b655818ae8e")
+		(property "Reference" "R15"
+			(at 323.088 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 323.596 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 323.85 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 323.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201FR-071ML"
+			(at 323.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9955c895-7e76-4433-b785-5f1cbeb851d5")
+		)
+		(pin "2"
+			(uuid "3fbe4d43-55d9-4e64-a11a-f982d2baf9ce")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037604e8-0cb6-4127-af76-c7ba8ef6ec47")
+		(property "Reference" "#PWR065"
+			(at 269.24 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d598bfd-8f7b-483e-a6f4-23f6da5fe11e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a39df18-db41-48f8-a0f5-89cfb295a056")
+		(property "Reference" "R6"
+			(at 136.398 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9k"
+			(at 133.604 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 131.572 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201FR-0749K9L"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68b6d7c-f588-4ff0-8bd6-ae2c39d3198b")
+		)
+		(pin "2"
+			(uuid "22b570b3-80ff-4a2d-8040-d0523144e254")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 313.69 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "123263cf-f503-427f-9a50-157564608fa7")
+		(property "Reference" "C14"
+			(at 314.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 314.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 314.6552 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 313.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM0335C1E180JA01J"
+			(at 313.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c91e5cea-e086-4873-a2eb-521a0ade1a8b")
+		)
+		(pin "2"
+			(uuid "6719951f-f5dc-44e2-8bd8-24966e5c8e7b")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12606bcb-d9f3-42d6-bada-27c30090e1f8")
+		(property "Reference" "#PWR032"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "412aeadb-f751-4f00-8ff3-83c09f99f004")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 285.75 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d97e2f-cdd5-48b8-a370-cd0885f13a11")
+		(property "Reference" "C24"
+			(at 287.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 287.02 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 286.7152 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 285.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MP5NUNC"
+			(at 285.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd10e1a1-8479-4e84-a55f-7ad598162c26")
+		)
+		(pin "2"
+			(uuid "11323072-edad-4e12-84ac-4a11b652234c")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18c7fbf9-b959-4632-8a0d-be6560e2654b")
+		(property "Reference" "#PWR074"
+			(at 294.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13de8e04-825d-49cb-9125-4fb3afd5f6eb")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bcecbb4-b237-4ace-994b-4e60b93713cd")
+		(property "Reference" "R13"
+			(at 254.254 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 259.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d34f19c-58fb-44b2-a098-506c7cf6cafc")
+		)
+		(pin "2"
+			(uuid "7031f1f5-4f23-43e2-a195-409e14749f4b")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FS1703-3300-AS:FS1703-3300-AS")
+		(at 140.97 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dbeb950-0a4e-4ce6-907e-78355a41f43e")
+		(property "Reference" "U3"
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "FS1703-3300-AS"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "FS1703-3300-AS:P11F1_TDK"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FS1703-3300-AS"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "5aaffc27-6bc9-42bb-8615-6986e3823fc2")
+		)
+		(pin "2"
+			(uuid "cff29898-d969-4a11-b0c6-337adc71bd90")
+		)
+		(pin "7"
+			(uuid "ecd30118-56e0-422e-bce4-f17b5e21b9aa")
+		)
+		(pin "6"
+			(uuid "fa4e07a0-31a9-4ed2-8f26-dc61c013fffe")
+		)
+		(pin "13"
+			(uuid "48e059af-1083-476c-b32d-9424efddb3ff")
+		)
+		(pin "10"
+			(uuid "5a1283dc-a3e4-4c13-81c1-849489c5ec63")
+		)
+		(pin "5"
+			(uuid "419d9f38-008a-4913-8578-c5cd18d82aa7")
+		)
+		(pin "8"
+			(uuid "15a70cb4-e76f-483c-9e9c-45e36a90ab01")
+		)
+		(pin "15"
+			(uuid "71bacf0e-cb69-40e1-9a9b-dfdeb1a88836")
+		)
+		(pin "3"
+			(uuid "6af0a6c2-b64e-49af-96de-63af482f742b")
+		)
+		(pin "4"
+			(uuid "623f7db8-f225-4181-9212-f1ad52aebcaf")
+		)
+		(pin "9"
+			(uuid "cede633c-c771-46ea-9bd4-0a9f4437b59b")
+		)
+		(pin "11"
+			(uuid "9f04db38-d607-4b64-9f82-68dea54b6ba8")
+		)
+		(pin "16"
+			(uuid "718cb249-cfcc-464b-84c2-af374ece3f4e")
+		)
+		(pin "12"
+			(uuid "a361d6c3-82ef-47dd-a4be-702d98b332b1")
+		)
+		(pin "1"
+			(uuid "089c610b-bcdc-4422-8d97-8e3a0f0565e9")
+		)
+		(pin "17"
+			(uuid "b4d597e4-8635-4a17-abf8-9d67a3956249")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b820b5-696c-4cb5-96f7-848d45d18125")
+		(property "Reference" "#PWR069"
+			(at 356.87 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56cd1860-d099-40bb-93d5-95ebf1f1aabf")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 322.58 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ccd3a66-16b5-4464-be54-92494ae74c73")
+		(property "Reference" "C26"
+			(at 323.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.5452 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 322.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MP5NUNC"
+			(at 322.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfc591ad-bdf7-4366-8e89-4106554264ac")
+		)
+		(pin "2"
+			(uuid "5dbe321a-df0f-420d-b23b-4a70e3d1fbad")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 364.49 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d3f6d05-ef85-4fac-aafe-524c434473fe")
+		(property "Reference" "C23"
+			(at 370.078 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 370.078 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 363.5248 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 364.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0201X5R104K160NT"
+			(at 364.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e0ebc37-d5cd-4333-95a8-85eb17c04bc7")
+		)
+		(pin "2"
+			(uuid "aeb24524-3b8e-4144-bca6-8319f5211d71")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 119.38 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fd2de15-4809-4abc-bb92-dc37a79feeec")
+		(property "Reference" "#PWR030"
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a021cacc-210b-4d26-b417-0cc2ec29dc9e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 349.25 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe3ee28-fce3-4470-b1f2-2d9fb17fe59a")
+		(property "Reference" "#PWR068"
+			(at 349.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84327ac4-6c72-4ea4-9c30-657665bc64aa")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3411e223-5732-4d51-aae6-15c8454dd297")
+		(property "Reference" "#PWR042"
+			(at 224.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c58a1e6-4dcf-4b0c-9105-8e76ace4cc78")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 224.79 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "346f9905-3b3b-45b7-b358-42cc9f7c0151")
+		(property "Reference" "#PWR041"
+			(at 224.79 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 224.79 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9155e119-e245-4dbc-b81e-ac9baaa83360")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "356ac9da-6189-44ae-b172-9babbd79383f")
+		(property "Reference" "#PWR038"
+			(at 189.23 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c70b106-fcd1-4c2a-903d-1e0d7eb51501")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37873d6d-7987-48be-bcc8-c6323ca2219f")
+		(property "Reference" "C10"
+			(at 232.41 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 232.41 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.1052 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 231.14 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM155R61A225KE95D"
+			(at 231.14 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da762694-9fb0-40cd-a750-135afb99e8ce")
+		)
+		(pin "2"
+			(uuid "2164292e-86a7-4896-ade3-a0c11004b529")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a021636-db9f-40a6-8a85-96cbf2568858")
+		(property "Reference" "#PWR046"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbdbb9a4-3c51-498d-9cf3-b9789896768f")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d07300c-92d8-46ed-a7a3-5989dd51e7cb")
+		(property "Reference" "#PWR075"
+			(at 322.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfec65f1-cfff-45ed-ba9e-e19acabc83d9")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d43e4c0-882e-4104-bfed-7f705748cb7d")
+		(property "Reference" "R10"
+			(at 254.254 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2bdbaac-a3c2-4deb-92a0-5bb8224c9a78")
+		)
+		(pin "2"
+			(uuid "b6dc5de1-0ac4-49e9-9d67-692e6409b834")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d5c156d-4303-455a-95e2-b65791f08513")
+		(property "Reference" "R12"
+			(at 254.254 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 259.08 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RTT011003FTH"
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec4b431-6462-4d15-ae19-65584bbed336")
+		)
+		(pin "2"
+			(uuid "da49c563-481b-455e-9314-ac60624112b9")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 331.47 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fffad86-b2f5-419e-a6d0-d344e007e45a")
+		(property "Reference" "C27"
+			(at 332.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 332.74 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 332.4352 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 331.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MP5NUNC"
+			(at 331.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "238f7b23-8da8-44d0-adce-59e964963c05")
+		)
+		(pin "2"
+			(uuid "ed918594-a56a-4884-b9b2-05d5aa067765")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 331.47 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41f5f0ad-8acb-4647-922b-a7db962812bd")
+		(property "Reference" "#PWR058"
+			(at 331.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee45f63d-021c-4445-8cfb-a9c621ca6693")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 349.25 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4242fd24-8e9f-4723-858c-6a2fe6f4b18a")
+		(property "Reference" "C21"
+			(at 354.838 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 354.838 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 348.2848 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 349.25 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0201X5R104K160NT"
+			(at 349.25 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6717884-2646-415d-afbc-c64aa591033a")
+		)
+		(pin "2"
+			(uuid "611c1d58-10cb-490b-99c0-4c64c8ccc682")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4386ef9a-d5be-44b2-95de-14aec7ae0e90")
+		(property "Reference" "C18"
+			(at 274.574 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 274.574 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 268.2748 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 269.24 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0201X5R104K160NT"
+			(at 269.24 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549a12ad-bfab-40ab-93d7-281f840de193")
+		)
+		(pin "2"
+			(uuid "cf6d6d05-b1c5-4ae4-9fbe-2d39420e2079")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 276.86 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43907313-0b86-4a90-bbdd-f7ed82fb065b")
+		(property "Reference" "C19"
+			(at 282.194 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 282.194 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 275.8948 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 276.86 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0201X5R104K160NT"
+			(at 276.86 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ffc0461-2bc9-4cdc-987e-4ea35a4b9c4d")
+		)
+		(pin "2"
+			(uuid "f189b69a-b045-49c6-a4ef-12dea0991252")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 340.36 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba1b6ee-2201-42de-81fd-182cbdbd624f")
+		(property "Reference" "#PWR077"
+			(at 340.36 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade7b43c-5f39-4b28-9b5c-0cb246d57758")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L327S240P11L:TSX-3225_40.0000MF20X-K0")
+		(at 323.85 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cbccb03-f18a-467e-8e0a-bd90dfa9a8ab")
+		(property "Reference" "Y1"
+			(at 323.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24MHz"
+			(at 323.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L327S240P11L:XTAL_TSX-3225_40.0000MF20X-K0"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part num" "L327S240P11L"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPSON"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27c17a7a-c01f-409a-8707-5a6ceb55d773")
+		)
+		(pin "3"
+			(uuid "0221f64b-a2df-4709-bc5c-6aca9ba52649")
+		)
+		(pin "4"
+			(uuid "f9e5cf90-daf8-42d8-9f44-80add57f88d5")
+		)
+		(pin "2"
+			(uuid "ff9f1953-d7d4-4c60-99d9-1e1fc5d613f9")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 101.6 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e1e8e5d-ea51-49b8-aa0b-32ce15943c4a")
+		(property "Reference" "#PWR062"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 97.79 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8011832f-25f7-4f16-9988-eaca4560151f")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "540a3ac1-830d-45cc-8ba6-9b471676160b")
+		(property "Reference" "C17"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 89.2048 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 1uF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM033R71A103KA01D"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4487c305-029b-4542-a7b8-bce49d7f3b55")
+		)
+		(pin "2"
+			(uuid "fc56b94d-7333-4de3-94d1-6aac1d8fbf09")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 356.87 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5652b5ec-e8ce-42d7-9061-ee78e3151a3f")
+		(property "Reference" "C22"
+			(at 362.458 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 362.458 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 355.9048 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 356.87 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0201X5R104K160NT"
+			(at 356.87 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96642d65-2674-40e2-8ee2-8c35432bbec6")
+		)
+		(pin "2"
+			(uuid "4464ca2c-af09-4f33-b6b4-3a53b0cb8b61")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 186.69 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597e8e54-920f-4075-87af-18de6267e095")
+		(property "Reference" "#PWR036"
+			(at 182.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22264fd0-d0b2-495a-a239-f104986048f5")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 293.37 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d0f7c07-cb81-4616-8b05-33fc33bd91e3")
+		(property "Reference" "R14"
+			(at 296.926 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 293.37 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 291.592 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 293.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RTT011003FTH"
+			(at 293.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9916de8-bd4f-48e4-a384-aa545df1dbcd")
+		)
+		(pin "2"
+			(uuid "cbe9ecca-0b29-4fa7-875f-900dabeefae2")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e294001-3783-4373-a384-f8077b5e25b4")
+		(property "Reference" "#PWR066"
+			(at 276.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17aedfe1-8ce6-4800-9354-e0a572321518")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 133.35 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f25a2bf-0a31-481f-bf2b-d2171b07c04d")
+		(property "Reference" "#PWR033"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.302 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae6cc41f-e10e-4d36-9fb2-8fc228cbb944")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB2512BI_AEZG:USB2512BI-AEZG")
+		(at 110.49 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb7a4c7-f3a2-40cd-9a78-13385797cfdb")
+		(property "Reference" "U2"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "USB2512BI-AEZG"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "QFN36_6X6MC_MCH"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "USB2512BI-AEZG"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "8b22f1f0-fce8-4df0-807a-cad2304911a4")
+		)
+		(pin "13"
+			(uuid "2c3a4460-a9cb-42a1-9927-7420c689239b")
+		)
+		(pin "28"
+			(uuid "ac23e054-208b-432e-b3d5-3dc7a1cb223c")
+		)
+		(pin "10"
+			(uuid "176fe48a-ab53-4607-83fb-e2d7a6eda48b")
+		)
+		(pin "16"
+			(uuid "7ca73166-3226-4e13-bf2e-5f3ca15f5c55")
+		)
+		(pin "22"
+			(uuid "7b3e5fa1-a57c-4b1a-88d2-589bfca28e3d")
+		)
+		(pin "29"
+			(uuid "e5b51fd9-c03d-441c-8994-d60ad39844bd")
+		)
+		(pin "30"
+			(uuid "a592a221-c670-4374-955c-06b746c0fcb8")
+		)
+		(pin "31"
+			(uuid "57f98031-e442-4745-a832-13d0345af2d2")
+		)
+		(pin "1"
+			(uuid "d89a5f47-ec3d-445a-9ffb-fe7e826ab253")
+		)
+		(pin "11"
+			(uuid "ddc237f4-d718-46fc-b0ca-56f2183f81f5")
+		)
+		(pin "15"
+			(uuid "3e26e0cb-d2a4-475f-b461-877ace3680c0")
+		)
+		(pin "18"
+			(uuid "7964fdb4-e533-44e8-bb78-6539a0878c10")
+		)
+		(pin "20"
+			(uuid "74d5225d-d371-4e16-aa7a-a51a190de0d2")
+		)
+		(pin "21"
+			(uuid "9429f77d-0842-4988-83a0-7b8c3e44d057")
+		)
+		(pin "23"
+			(uuid "30265146-0e53-44f9-98b2-63ca6512d9e2")
+		)
+		(pin "26"
+			(uuid "31a4ff01-6894-49d6-b568-f9e58501a24c")
+		)
+		(pin "14"
+			(uuid "b9f90b13-0a5b-4c51-97ba-1a1111c37de2")
+		)
+		(pin "17"
+			(uuid "d6ab06c2-0c4d-42df-97c0-b35f1c015904")
+		)
+		(pin "25"
+			(uuid "44e5c9ac-af7d-4095-9da6-0262eb665b6f")
+		)
+		(pin "19"
+			(uuid "90e39efc-e343-4b59-a471-194de9f9c497")
+		)
+		(pin "24"
+			(uuid "6015a493-7666-41dc-a1e4-aefdcd3fefe5")
+		)
+		(pin "27"
+			(uuid "ac01a3e0-afa1-4cb9-939e-a6295810fe8a")
+		)
+		(pin "3"
+			(uuid "76e4650a-11bf-4879-b3a5-89e3f11edebd")
+		)
+		(pin "2"
+			(uuid "55c0d0ea-f980-4477-8cb8-5c8de95c1cf7")
+		)
+		(pin "36"
+			(uuid "232e22ee-106d-4592-b9ee-ceeb80fc38ae")
+		)
+		(pin "5"
+			(uuid "c6081797-7fc1-4ea2-8c30-676b0f8053ff")
+		)
+		(pin "8"
+			(uuid "f1756324-4e75-4c27-8c2a-dbf484cfabbc")
+		)
+		(pin "4"
+			(uuid "b51d7399-fb71-4c9f-b92c-357914246d92")
+		)
+		(pin "9"
+			(uuid "c28b1784-2332-44de-be71-da906582203d")
+		)
+		(pin "35"
+			(uuid "75e097d3-2258-4d2d-aa0c-f996bac4ccf2")
+		)
+		(pin "34"
+			(uuid "7d5cbc26-63d4-4be6-8ce4-31ef7ecd9486")
+		)
+		(pin "7"
+			(uuid "865405ed-5290-4092-90a8-3e8379757d76")
+		)
+		(pin "33"
+			(uuid "7575cbf1-b29a-49a1-98a6-8c4412103045")
+		)
+		(pin "6"
+			(uuid "451058b4-b712-4f07-a18b-3d90dcbda7c4")
+		)
+		(pin "32"
+			(uuid "1bf2f81b-c019-43a5-9120-2eaf842c67d8")
+		)
+		(pin "37"
+			(uuid "26106b64-08fe-4dac-92ba-cbee8af18ef3")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 262.89 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a470921-0c52-4e83-af37-640412415d46")
+		(property "Reference" "#PWR043"
+			(at 259.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 266.7 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ef1de6d-4ac7-4a18-9157-58f6e752a8fd")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 340.36 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c43fd88-4a36-4a88-98d5-3edf8bf53eeb")
+		(property "Reference" "C28"
+			(at 341.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 341.3252 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 340.36 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MP5NUNC"
+			(at 340.36 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ff8f7a-6245-4d45-822a-7aaa7c583c98")
+		)
+		(pin "2"
+			(uuid "e981942c-c5aa-4428-8e63-e5f0e993195d")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 102.87 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ff73d42-caba-4d1b-b056-a574f3f8e417")
+		(property "Reference" "#PWR028"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 99.06 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "812c629c-8078-4bd8-9955-1e263a3c3e4f")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c89f56-cbe9-40e0-8e53-4fa64f24712f")
+		(property "Reference" "#PWR073"
+			(at 285.75 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ccef68f-eba5-4a77-ad7a-44273fd1e6d1")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd6cd2e-d952-46d2-99d3-0888c165af58")
+		(property "Reference" "#PWR056"
+			(at 293.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 293.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76040e91-b252-4f4b-a4d6-83f80c1b4974")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ecbada4-e4fc-4683-8952-12d3c7c4ab42")
+		(property "Reference" "#PWR063"
+			(at 83.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ee864a7-a683-497c-a470-c21c284893f3")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8289658e-34b1-41e5-bcd7-b44f33f2827e")
+		(property "Reference" "C9"
+			(at 226.06 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 226.06 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 225.7552 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 224.79 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM155R61A225KE95D"
+			(at 224.79 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a78c112-cd00-41c7-914a-c7389f6a67c3")
+		)
+		(pin "2"
+			(uuid "1c336af2-0997-482f-89c8-324d9e24c3bf")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85ca870c-7b64-4e29-a0a3-75ac90e3908e")
+		(property "Reference" "R8"
+			(at 255.016 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12k"
+			(at 259.334 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0201WMF1202TEE"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2375d824-bd93-4ead-b83b-b97a671d494f")
+		)
+		(pin "2"
+			(uuid "58381b86-e3ef-42c8-b441-2f97da8a042d")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 294.64 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89adefae-068b-4082-bd52-8437eeb1348e")
+		(property "Reference" "C25"
+			(at 295.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 295.91 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 295.6052 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 294.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05A106MP5NUNC"
+			(at 294.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4abdfca4-de07-4e22-93c3-eff8d4e9a097")
+		)
+		(pin "2"
+			(uuid "4f1a2d31-20b0-4e74-89ab-b32e00091b84")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 293.37 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89b004bf-df38-4026-9a34-cba322b6da80")
+		(property "Reference" "C13"
+			(at 294.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 294.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 294.3352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 293.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM033C80J224ME90D"
+			(at 293.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e607ee-d722-4681-b203-b817a53fe5e8")
+		)
+		(pin "2"
+			(uuid "d56bbcb5-d2b1-4e8f-bd73-066d89a78571")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 334.01 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c9bd5d6-4dcb-46cf-b381-994e0217ab67")
+		(property "Reference" "C15"
+			(at 335.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 335.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 334.9752 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM0335C1E180JA01J"
+			(at 334.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "797a6f00-4ba9-4f31-b798-e80941c5e4e0")
+		)
+		(pin "2"
+			(uuid "f9e84305-4886-4463-ac58-8a3c2ebade20")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90a7972a-1de2-43a2-a4a3-d3559aa20966")
+		(property "Reference" "C16"
+			(at 82.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 82.8548 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B104KB8NNWC"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85cbef94-37ea-4e1c-b57e-4f2c1fbea08e")
+		)
+		(pin "2"
+			(uuid "860d88ec-fc05-40da-87c1-220584bbf709")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 102.87 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93aa76e9-a144-4c94-b790-f8f51281cda3")
+		(property "Reference" "#PWR029"
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 98.806 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7fd9a5-be46-4715-ad79-4cef5bdf6402")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 278.13 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94674594-f447-45df-9894-ab352d29c113")
+		(property "Reference" "C11"
+			(at 276.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 276.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 277.1648 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B104KB8NNWC"
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf13a71-17b4-4ff7-b057-bab213e1760c")
+		)
+		(pin "2"
+			(uuid "440f21cc-d491-4afe-ab4d-6d2333eff518")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9726c303-baa7-484b-97bf-215c773b367a")
+		(property "Reference" "#PWR048"
+			(at 269.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eab76f6-fa3c-45aa-9550-07e2459ee177")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0411536-ec2d-4835-8f0a-db372b9440e5")
+		(property "Reference" "#PWR035"
+			(at 184.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f61e629-7594-4239-ae4c-d276b1296a55")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 262.89 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2a732b3-ab90-463d-943f-72ba61a247c3")
+		(property "Reference" "#PWR045"
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 266.7 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a71139-62fc-45ec-b602-84cc98813eae")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 284.48 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6a2a4f6-368e-477f-b7cb-9316539e90ad")
+		(property "Reference" "C12"
+			(at 283.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 283.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 283.5148 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 1uF X5R ±20% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM033R71A103KA01D"
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8638600f-c780-48c3-95e1-f718b6fbdbb6")
+		)
+		(pin "2"
+			(uuid "585fe9e0-7b06-473e-9a4e-289c29a096dd")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6be74e4-6105-4406-bcef-4df52c6dfb0f")
+		(property "Reference" "R5"
+			(at 122.428 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 119.634 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 117.602 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0201WMF2002TEE"
+			(at 119.38 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83d1d543-2297-4fcd-b6d2-df293941858c")
+		)
+		(pin "2"
+			(uuid "203bdb84-891f-47ce-aa29-6c3e7e63e45e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99c7664-ef50-43e3-a2c0-de92a9ab137a")
+		(property "Reference" "#PWR064"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffaad720-6592-4591-862b-7d7e9d3c6a8e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 262.89 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9a6ac08-5ffe-438c-b748-d1465e6886dd")
+		(property "Reference" "#PWR047"
+			(at 259.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.192 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f373d767-b9de-4a42-832b-8dc006364a14")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 265.43 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9d15856-f91a-4bec-b10c-890ba887c511")
+		(property "Reference" "#PWR051"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 269.24 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e842fd-8608-4934-9533-6de02626ec1a")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab8ce49e-b604-4480-85bd-29754416368d")
+		(property "Reference" "#PWR053"
+			(at 278.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d141d14-2412-4994-b7d5-61bba4f49dd7")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abd90ee7-2be1-4fad-a7f4-373d71c2810e")
+		(property "Reference" "C8"
+			(at 190.5 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 190.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 190.1952 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 189.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B104KB8NNWC"
+			(at 189.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b4d4a97-68bf-4f96-9418-46ac3190824d")
+		)
+		(pin "2"
+			(uuid "c77d0068-50f0-4d11-a25a-dfebc8222ebd")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af06a152-a72d-4e49-bfad-7b0e504293a7")
+		(property "Reference" "#PWR054"
+			(at 284.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e62b634-b06f-4921-9550-93b65e90b2d4")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 264.16 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af1f91be-a4e6-4a35-9e49-c0a625d3a8b3")
+		(property "Reference" "#PWR049"
+			(at 260.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 267.208 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03561b6-f09a-4942-96e9-47ac3c49f200")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4cb185-174d-452b-953c-b44f754e97f9")
+		(property "Reference" "#PWR060"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc5fc2df-d0de-47cb-8ca0-1ce7078fcdaf")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1860c9b-e1ac-4fb4-9d7b-7c0b064a2452")
+		(property "Reference" "#PWR037"
+			(at 193.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768e0d1f-e70d-4ee8-82bf-eb44ccaf17b6")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 293.37 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b18b3a2b-5bcc-42af-b3b2-beed23d6c771")
+		(property "Reference" "#PWR055"
+			(at 293.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 294.894 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc6e0bb8-3b5a-4d0c-9236-0b51c3e6fb03")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 331.47 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1906a6c-48f7-44eb-8a82-940b466105a1")
+		(property "Reference" "#PWR072"
+			(at 331.47 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 328.676 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c34649-cdea-4319-b8b8-8873d66bef57")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 215.9 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b45319f4-fbc2-4f0d-aef3-1b75c7dead1b")
+		(property "Reference" "D3"
+			(at 210.82 192.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 200.152 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "735793d3-a938-4df5-b4d8-e44095c0b764")
+		)
+		(pin "2"
+			(uuid "415d6c85-a63c-4dec-8495-18d70f30df32")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6f01083-36b2-4cba-9ad1-db3f9014a09f")
+		(property "Reference" "R7"
+			(at 192.278 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7R"
+			(at 189.484 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 187.452 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RTT012R70FTH"
+			(at 189.23 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa036ec-abfa-4e46-95f9-0d74d7c86b07")
+		)
+		(pin "2"
+			(uuid "4c818a31-d0e3-4fb5-ab1c-f13fc4075210")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11c7e05-2941-44f4-9428-7679a8942bed")
+		(property "Reference" "#PWR031"
+			(at 119.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daec773c-eb2e-4a54-8a0c-b3eac83c6d05")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BLM15BB221SN1D:BLM15BB221SN1D")
+		(at 303.53 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c154f7fd-fef2-4e6e-88db-8132914c3fbc")
+		(property "Reference" "L1"
+			(at 311.15 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BLM15BB221SN1D"
+			(at 311.15 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "BLM15BB221SN1D:IND_BLM15_0402_MUR"
+			(at 303.53 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "BLM15BB221SN1D"
+			(at 303.53 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e59609e6-6202-408a-a5a8-bce1b1c80a20")
+		)
+		(pin "1"
+			(uuid "f98b0d83-304f-467e-a740-4a1d715f227e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c386a39e-9770-4051-a97a-11d6fcfa8a07")
+		(property "Reference" "R11"
+			(at 254.254 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 258.826 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aed222a-1527-48a5-9f7d-71056c26e8d2")
+		)
+		(pin "2"
+			(uuid "2634469c-b52b-4b6f-a2b7-c9404f4a5d81")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c595db49-003f-4ba0-942a-eaa538d05081")
+		(property "Reference" "#PWR034"
+			(at 138.43 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa63c87-7b89-4714-a68d-92d85ee3c21b")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 331.47 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1cc086-7156-4223-8181-89d98894c403")
+		(property "Reference" "#PWR076"
+			(at 331.47 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b58296c-1ee0-49a7-8291-2b7017168954")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4d9189-196b-4c3e-8ad7-a9c9e0b7ad5f")
+		(property "Reference" "R9"
+			(at 254.254 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 259.08 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "115ddd19-ac5c-4e41-bdbc-92b1d90416ba")
+		)
+		(pin "2"
+			(uuid "60b289f2-0245-4fac-815b-ab87dcbf92c6")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1c74612-90c5-4bf2-93a6-028f5e5692f0")
+		(property "Reference" "R4"
+			(at 122.682 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.634 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 117.602 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab0f4961-49ab-4ae3-a2df-dbf87d752a4d")
+		)
+		(pin "2"
+			(uuid "84f80678-ca77-41be-953e-3d1d01af90f0")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d35c711e-98c3-4fdf-b799-ccc10427163e")
+		(property "Reference" "#PWR059"
+			(at 334.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2560186-4779-4265-b381-640534e01d3b")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89f4b3c-1fe8-4100-bd04-c74e464674d9")
+		(property "Reference" "#PWR052"
+			(at 271.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6bad8a3-c802-412d-8957-f13692a1d9de")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 269.24 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9a4ee8f-8970-4dc3-9b2d-494f27e26902")
+		(property "Reference" "#PWR071"
+			(at 269.24 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.446 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee03366a-101b-48db-91e6-5a39c0de6f10")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 101.6 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db3ffa50-26eb-4cb5-a967-23cb510bf189")
+		(property "Reference" "#PWR061"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 97.79 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba7b4cf1-8adf-490e-83c5-1f474f06cb02")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc446319-7df5-43e7-bd4a-690148e17012")
+		(property "Reference" "R16"
+			(at 105.41 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 105.156 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 105.41 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6107257d-16fe-45f5-9ebe-2685d1033a4b")
+		)
+		(pin "2"
+			(uuid "ad15e7b3-9489-4575-a5a0-d4e3ac10af99")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 129.54 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddd1f13d-3cf7-4f93-ab4b-7655e4ed5f94")
+		(property "Reference" "#PWR067"
+			(at 133.35 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 127 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7afddac1-fb3f-482e-bc50-431f9cdb1448")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e20513e8-dd13-43fb-b75b-7d9b816d785b")
+		(property "Reference" "#PWR070"
+			(at 364.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "179d0d47-08c9-40b9-aa13-c984dd9e5688")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 102.87 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e40f7d51-e1c3-459d-88ed-396ef9bbf41b")
+		(property "Reference" "#PWR026"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 99.06 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d14ff96-9c5b-44a6-a5f1-6a1c8d29377e")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8781ea4-b801-4a92-a7f6-d208ccfd33bf")
+		(property "Reference" "C7"
+			(at 130.81 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 130.81 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.5052 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM155R61A225KE95D"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed81358-b2d0-4178-be7c-1cc3c5337ba6")
+		)
+		(pin "2"
+			(uuid "b0793c47-7553-4756-8bca-230ea574fa83")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6df3e6-7f9e-4d10-a409-7f8226cfb90e")
+		(property "Reference" "R17"
+			(at 105.41 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 105.156 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 105.41 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0201JR-0710KL"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2effa388-feda-48ad-a225-85fb60f206ef")
+		)
+		(pin "2"
+			(uuid "3a1e3923-e5b3-4250-b191-dd2b3612e9f1")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 262.89 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5541c9c-e6e3-45ed-a36f-6aff97f7ac2c")
+		(property "Reference" "#PWR044"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDA33"
+			(at 266.7 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb06d6f-e255-4e3c-851d-07e518357bc7")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a973de-2453-4b62-a3c5-717a288d1ee2")
+		(property "Reference" "#PWR050"
+			(at 271.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa766e0-ff73-4a7a-b178-369dcbfd6ae9")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 313.69 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe90147e-aeef-45e6-a2c7-837a52e25195")
+		(property "Reference" "#PWR057"
+			(at 313.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2915060b-a19c-4350-8850-acfa026993de")
+		)
+		(instances
+			(project "Radxa Shield Rev. 1.1"
+				(path "/734b2ac7-12e7-4e60-a494-81989fcac3dc/6cff7a4a-74d4-4510-bc5c-148570ae8538"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
