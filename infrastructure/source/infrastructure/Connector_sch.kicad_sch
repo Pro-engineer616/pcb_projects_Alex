@@ -6326,28 +6326,6 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 67.31 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0cb810b8-f929-4726-9e8e-eb508690ec9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.91 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART RX HALOW"
 		(shape input)
 		(at 181.61 82.55 0)
@@ -6647,28 +6625,6 @@
 		(uuid "2dcc904c-cfaa-4222-b2ee-6504010f2ef8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 336.2258 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 67.31 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "377250b0-edf4-4996-9abf-9dcb3a222d57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,28 +7026,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 67.31 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81a4bf46-3e48-43ac-9904-8b89e2505a18")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7576,28 +7510,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 67.31 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9c7c6c9-e8c2-4d83-a9ca-b7e37e7e75d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.91 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12538,6 +12450,73 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
+		(at 67.31 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd8a02c-c63a-48e0-95b1-ed0bbb965483")
+		(property "Reference" "#PWR0120"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9331cb86-5948-4253-b67b-6239845acf2f")
+		)
+		(instances
+			(project "infrastructure"
+				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8/ff222cd9-dbd8-4181-a3e1-e9795cded5e3"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
 		(at 198.12 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14615,6 +14594,73 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
+		(at 67.31 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "805a9cf8-49a7-460c-8ad2-f0fba4fe177c")
+		(property "Reference" "#PWR0122"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd67bc46-d141-4e1a-84f9-672f4fc8ad00")
+		)
+		(instances
+			(project "infrastructure"
+				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8/ff222cd9-dbd8-4181-a3e1-e9795cded5e3"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
 		(at 276.86 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15277,6 +15323,140 @@
 			(project "PDB"
 				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8/ff222cd9-dbd8-4181-a3e1-e9795cded5e3"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 67.31 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fccb406-ccc8-4b5c-8340-6cce2793b919")
+		(property "Reference" "#PWR0118"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 67.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82d31d6-56b3-479b-b4fb-6b15f1c76bcf")
+		)
+		(instances
+			(project "infrastructure"
+				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8/ff222cd9-dbd8-4181-a3e1-e9795cded5e3"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 67.31 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948adbcd-268f-4be2-8558-018b281f5d44")
+		(property "Reference" "#PWR0121"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db81dc65-3f6f-457b-bcfe-5f11d90b79e5")
+		)
+		(instances
+			(project "infrastructure"
+				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8/ff222cd9-dbd8-4181-a3e1-e9795cded5e3"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
