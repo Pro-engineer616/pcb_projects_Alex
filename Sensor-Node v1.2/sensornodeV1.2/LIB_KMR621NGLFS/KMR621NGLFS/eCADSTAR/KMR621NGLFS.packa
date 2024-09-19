@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "KMR621NGLFS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-08-18:46:29)
+    (mountForm default
+        (footprintRef "KMR621NGLFS")
+        (spec "System")
+    )
+)

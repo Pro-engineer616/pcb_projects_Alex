@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PESD3V3S1UL,315
+#/1021408/1200748/2.50/2/2/Diode ESD (Uni-directional)
+DEF PESD3V3S1UL,315 D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "PESD3V3S1UL,315" 400 250 50 H V L CNN
+F2 "PESD5V0S1BL315" 400 150 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESD3V3S1UL.pdf" 400 50 50 H I L CNN
+F4 "Unidirectional ESD protection diode" 400 -50 50 H I L CNN "Description"
+F5 "0" 400 -150 50 H I L CNN "Height"
+F6 "Nexperia" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "PESD3V3S1UL,315" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-PESD3V3S1UL315" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3S1UL315?qs=LOCUfHb8d9vQ9koc%252Bm8kRA%3D%3D" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "PESD3V3S1UL,315" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pesd3v3s1ul315/nexperia?region=asia" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

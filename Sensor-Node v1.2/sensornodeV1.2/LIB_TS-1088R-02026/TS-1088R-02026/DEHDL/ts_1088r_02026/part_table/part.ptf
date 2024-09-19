@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TS_1088R_02026'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "XUNPU", "TS-1088R-02026" (!) = "", "TS1088R02026", "Other", "", "", "", "", "SMD,3x4x2.0mm Tactile Switches", "https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02026_C455280.pdf"
+END_PART
+
+END.

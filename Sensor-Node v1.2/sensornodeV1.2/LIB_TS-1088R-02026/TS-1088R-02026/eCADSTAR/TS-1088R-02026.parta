@@ -1,0 +1,67 @@
+(Japanese_coding: sjis)
+(function "ECS_7833497"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-18-11:22:34)
+    (utime 2024-06-24-09:39:23)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TS-1088R-02026")
+)
+
+
+(pinAssign "ECS_7833497"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-18-11:22:34)
+    (utime 2024-06-24-09:39:23)
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_7833497")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TS-1088R-02026")
+)
+
+
+(part "TS-1088R-02026"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-18-11:22:34)
+    (utime 2024-06-24-09:39:23)
+    (packageRef "TS-1088R-02026")
+    (pinAssignRef "ECS_7833497")
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "SMD,3x4x2.0mm Tactile Switches")
+    (property "Manufacturer_Name" "XUNPU")
+    (property "Manufacturer_Part_Number" "TS-1088R-02026")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02026_C455280.pdf")
+)
+
+

@@ -1,0 +1,18 @@
+.KMR621NGLFS :1 ;Tactile Switches 50mA 32VDC 1.9mmH 2N IP67
+KMR621NGLFS
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 4
+*DFN KMR621NGLFS
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (KMR621NGLFS)
+~!Mouser Part Number (611-KMR621NGLFS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CK/KMR621NGLFS?qs=HXFqYaX1Q2yW62rsqjQaoA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.ckswitches.com/media/1907/kmr6.pdf)
+~!Height (1.9mm)
+~!3D_Model (KMR621NGLFS)
+KMR621NGLFS
+1.1!U 2.1!U 3.1!U 4.1!U 
