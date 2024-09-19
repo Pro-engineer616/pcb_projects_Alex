@@ -18716,7 +18716,7 @@
 			)
 		)
 		(property "Footprint" "2132281210:CON_2132281210_MOL"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1cb751fc-c564-48e7-94cc-4fd0d879b7d0")
@@ -18728,7 +18728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae8c6c02-a02b-4d44-95e7-340808cadedb")
@@ -18740,7 +18740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d83d5a00-5e52-4eb2-8899-760724a62986")

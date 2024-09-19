@@ -41,7 +41,7 @@
 			)
 		)
 		(instances
-			(project "PDB1.2"
+			(project "PDB1.4"
 				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8"
 					(page "2")
 				)
@@ -79,7 +79,7 @@
 			)
 		)
 		(instances
-			(project "PDB1.2"
+			(project "PDB1.4"
 				(path "/cb065ac3-641e-4de8-b77c-3afca45e38a8"
 					(page "3")
 				)

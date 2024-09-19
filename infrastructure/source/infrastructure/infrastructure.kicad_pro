@@ -480,7 +480,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../../production/gerber/",
-      "pos_files": "../../production/CPL/",
+      "pos_files": "../../production/PCBWAY/CPL/",
       "specctra_dsn": "",
       "step": "../../infrastructure.step",
       "svg": "",
