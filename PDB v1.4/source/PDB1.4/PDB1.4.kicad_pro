@@ -479,7 +479,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../production/gerber/",
+      "plot": "../../production/JLCPCB/gerber/",
       "pos_files": "../../production/PCBWAY/CPL/",
       "specctra_dsn": "",
       "step": "../../PDB1.4.step",
